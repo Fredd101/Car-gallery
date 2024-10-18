@@ -29,7 +29,25 @@
         "name": "Toyota",
         "model": "Huracan 2",
         "image": "img/vint.jpg"
+      },
+      {
+        "name": "Ford",
+        "model": "Huracan 2",
+        "image": "img/ridd.jpg"
+      },
+      {
+        "name": "IM",
+        "model": "Ikenga 2",
+        "image": "https://images.pexels.com/photos/14346586/pexels-photo-14346586.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "name": "Mustang",
+        "model": "Coup 2",
+        "image": " https://images.pexels.com/photos/3065602/pexels-photo-3065602.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       }
+     
+      
+      
       
     ]
   }
