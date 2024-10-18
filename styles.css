@@ -10,6 +10,16 @@ h1{
     margin-bottom: 20px;
 }
 
+#searchInput{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
 #filterButtons{
     margin-bottom: 20px;
 }
@@ -19,7 +29,7 @@ h1{
     font-size: 16px;
     cursor: pointer;
     border: none;
-    background-color: #034c66;
+    background-color: #8cb90e;
     color: white;
     border-radius: 5px;
     transition: background-color 0.3s

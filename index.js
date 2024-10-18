@@ -37,6 +37,11 @@ const displayCars = (cars) => {
 //clear any existing content inside the car container
     carContainer.innerHTML = '';
 
+    if(cars.length === 0){
+        carContainer.innerHTML = "<p>No data found </p>"
+        return;
+    }
+
     //loop through each car object in the `cars` array.
     cars.forEach((car) => {
 
@@ -85,6 +90,19 @@ const generateFilterButtons = (cars) => {
     displayCars(filteredCar)
 
  }
+ const searchCars = (query) => {
+    const searchedCars = allCars.filter((car) => 
+        car.name.toLowerCase().includes(query.toLowerCase())||
+        car.model.toLowerCase().includes(query.toLowerCase())
+    )
+    displayCars(searchedCars)
+ }
+      document.getElementById('searchInput').addEventListener('input', (event) => {
+        searchCars(event.target.value) //filter cars on input change
+ })
+ 
+
+
 //fetch and display car data when the page loads
 window.onload = fetchCarData
 
