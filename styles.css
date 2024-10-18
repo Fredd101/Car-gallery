@@ -1,0 +1,47 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+#filterButtons{
+    margin-bottom: 20px;
+}
+#filterButtons button{
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s
+}
+
+#carContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0,l);
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+}
+.card img{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}

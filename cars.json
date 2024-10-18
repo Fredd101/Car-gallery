@@ -1,0 +1,36 @@
+{
+    "cars": [
+      {
+        "name": "Tesla",
+        "model": "Model S",
+        "image": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "name": "BMW",
+        "model": "i8",
+        "image": "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "name": "BMW",
+        "model": "R8",
+        "image": "https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "name": "Tesla",
+        "model": "AMG GT",
+        "image": "img/vinn.jpg"
+      },
+      {
+        "name": "Audi",
+        "model": "Huracan",
+        "image": "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "name": "Toyota",
+        "model": "Huracan 2",
+        "image": "img/vint.jpg"
+      }
+      
+    ]
+  }
+
