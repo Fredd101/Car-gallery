@@ -10,3 +10,8 @@ const CarDetailsContainer = document .getElementById('carDetails')
     <h3>${selectedCar.model}</h3>
     </div>
     `
+    //  Go back to the gallery page  
+
+    function goBack(){
+        window.location.href = 'index.html'
+    }

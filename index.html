@@ -7,6 +7,31 @@
     <title>CAR GALLERY</title>
 </head>
 <body>
+
+<!-- Navbar -->
+<header class="navbar">
+    <div class="logo">Car Gallery</div>
+    <nav class="nav-links" id="navLinks">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">About</a></li>
+        <li id="authLinks">
+          <a href="login.html" id="loginLink">Login</a>
+          
+          <a href="register.html" id="registerLink">Register</a>
+        </li>
+        <li><button class="logout" id="logoutBtn" style="display: none;">Logout</button></li>
+      </ul>
+    </nav>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+
     <h1>Car Gallery</h1>
     <!-- search input  -->
      <input type="text" id="searchInput" placeholder="Search by name or model">
