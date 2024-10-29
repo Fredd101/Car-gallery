@@ -1,10 +1,16 @@
 body{
     font-family: arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: rgb(206, 203, 198);
     margin: 0;
     padding: 20px;
     text-align: center;
 }
+
+/* <!-- // [JSON] JAVASCRIPT OBJECT NOTATION
+// json is a format every promaming languages understands
+// restful API
+// Third party API 'payment getway'
+// local API --> */
 
 h1{
     margin-bottom: 20px;
@@ -15,8 +21,8 @@ h1{
     margin-bottom: 20px;
     width: 300px;
     font-size: 16px;
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
+    /* text-align: center; */
     justify-content: center;
 }
 
@@ -42,7 +48,7 @@ h1{
     justify-content: center;
 }
 .card{
-    background-color: #e2dee1;
+    background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0,l);
     padding: 15px;
@@ -54,4 +60,30 @@ h1{
     width: 100%;
     height: auto;
     margin-bottom: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.details-container .car-image{
+ width: 100%;
+ max-height: 400px;
+ object-fit: cover;
+ border-radius: 8px;
+}
+
+.car-info{
+    margin: 10px 0;
+    font-size: 32px;
+    color: #333;
+}
+
+.car-info h3{
+    margin: 5px 0;
+    color: #555;
+    font-weight: normal;
 }
