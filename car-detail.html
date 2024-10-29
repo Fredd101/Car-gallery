@@ -15,5 +15,10 @@
         </div>
     </div>
     <script src="car-details.js"></script>
+    <script>
+        if(!localStorage.getItem('authenticatedUser')){
+            window.location.href = 'login.html'
+        }
+    </script>
 </body>
 </html>
